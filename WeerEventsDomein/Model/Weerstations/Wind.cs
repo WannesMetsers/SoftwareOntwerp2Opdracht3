@@ -10,8 +10,8 @@ namespace WeerEventsDomein.Model.Weerstations
     {
         public override void DoeMeting()
         {
-            var waarde = Random.Shared.NextDouble() * 2 - 35;
-            var meting = new Meting(DateTime.UtcNow, waarde, Enums.Eenheden.HectoPascal, Locatie);
+            var waarde = 2 + Random.Shared.NextDouble() * 33;
+            var meting = new Meting(DateTime.UtcNow, waarde, Enums.Eenheden.KilometerPerUur, Locatie);
             Metingen.Add(meting);
          
         }

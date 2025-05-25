@@ -10,7 +10,7 @@ namespace WeerEventsDomein.Model.Weerstations
     {
         public override void DoeMeting()
         {
-            var waarde = Random.Shared.NextDouble() * 700 - 1400;
+            var waarde = 700 + Random.Shared.NextDouble() * 700;
             var meting = new Meting(DateTime.UtcNow, waarde, Enums.Eenheden.MillimeterPerVierkanteMeterPerUur, Locatie);
             Metingen.Add(meting);
             
