@@ -9,7 +9,7 @@ WeerEvents is een applicatie voor het verzamelen en verwerken van meteorologisch
 
 1. Clone de repository
 2. Open het project in Visual Studio / je favoriete IDE
-3. Zorg dat het bestand `steden.json` aanwezig is in de juiste map (`WeerEventsData` of output directory)
+3. Zorg dat het bestand `steden.json` aanwezig is in de juiste map (`WeerEventsRepo.Data`)
 4. Bouw en start de applicatie
 5. Gebruik een API-client (bv. Postman of httpie) om de endpoints te testen
 

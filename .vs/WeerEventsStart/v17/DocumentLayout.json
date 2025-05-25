@@ -170,24 +170,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WeerberichtManager.cs",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
-              "RelativeDocumentMoniker": "WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
-              "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:34:14.153Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,86 +186,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\WeerstationManager.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwBUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:22:36.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "steden.json",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsRepo\\Data\\steden.json",
-              "RelativeDocumentMoniker": "WeerEventsRepo\\Data\\steden.json",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsRepo\\Data\\steden.json",
-              "RelativeToolTip": "WeerEventsRepo\\Data\\steden.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T15:26:33.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Stad.cs",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Stad.cs",
-              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Stad.cs",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Stad.cs",
-              "RelativeToolTip": "WeerEventsDomein\\Model\\Stad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:31:41.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weerstation.cs",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstation.cs",
-              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Weerstation.cs",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstation.cs",
-              "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:09:58.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Meting.cs",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Meting.cs",
-              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Meting.cs",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Meting.cs",
-              "RelativeToolTip": "WeerEventsDomein\\Model\\Meting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:11:43.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiCalls.http",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsApi\\ApiCalls.http",
-              "RelativeDocumentMoniker": "WeerEventsApi\\ApiCalls.http",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsApi\\ApiCalls.http",
-              "RelativeToolTip": "WeerEventsApi\\ApiCalls.http",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-25T12:25:17.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Luchtdruk.cs",
-              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
-              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
-              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
-              "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:18:32.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:22:36.746Z"
             },
             {
               "$type": "Document",
@@ -295,6 +203,90 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeerberichtManager.cs",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
+              "RelativeDocumentMoniker": "WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
+              "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\WeerberichtManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:34:14.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "steden.json",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsRepo\\Data\\steden.json",
+              "RelativeDocumentMoniker": "WeerEventsRepo\\Data\\steden.json",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsRepo\\Data\\steden.json",
+              "RelativeToolTip": "WeerEventsRepo\\Data\\steden.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T15:26:33.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stad.cs",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Stad.cs",
+              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Stad.cs",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Stad.cs",
+              "RelativeToolTip": "WeerEventsDomein\\Model\\Stad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T22:31:41.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weerstation.cs",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstation.cs",
+              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Weerstation.cs",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstation.cs",
+              "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:09:58.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Meting.cs",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Meting.cs",
+              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Meting.cs",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Meting.cs",
+              "RelativeToolTip": "WeerEventsDomein\\Model\\Meting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:11:43.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiCalls.http",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsApi\\ApiCalls.http",
+              "RelativeDocumentMoniker": "WeerEventsApi\\ApiCalls.http",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsApi\\ApiCalls.http",
+              "RelativeToolTip": "WeerEventsApi\\ApiCalls.http",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-25T12:25:17.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Luchtdruk.cs",
+              "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
+              "RelativeDocumentMoniker": "WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
+              "ToolTip": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
+              "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstations\\Luchtdruk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:18:32.399Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "IWeerstationManager.cs",
               "DocumentMoniker": "C:\\Users\\Wannes Metsers\\Desktop\\WeerStart\\SoftwareOntwerp2Opdracht3\\WeerEventsDomein\\Steden\\Managers\\IWeerstationManager.cs",
@@ -303,12 +295,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\IWeerstationManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:13:50.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+              "WhenOpened": "2025-05-25T03:13:50.092Z"
             },
             {
               "$type": "Document",
@@ -320,8 +307,7 @@
               "RelativeToolTip": "WeerEventsRepo\\Repositories\\StadRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:30:10.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T22:30:10.053Z"
             },
             {
               "$type": "Document",
@@ -333,8 +319,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\StadManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:31:53.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T22:31:53.024Z"
             },
             {
               "$type": "Document",
@@ -346,8 +331,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\IWeerberichtManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:33:17.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:33:17.351Z"
             },
             {
               "$type": "Document",
@@ -359,8 +343,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Steden\\Managers\\IStadManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:02:28.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:02:28.209Z"
             },
             {
               "$type": "Document",
@@ -372,8 +355,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstations\\Wind.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:09:24.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:09:24.159Z"
             },
             {
               "$type": "Document",
@@ -385,8 +367,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstations\\Temperatuur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:09:05.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:09:05.869Z"
             },
             {
               "$type": "Document",
@@ -398,8 +379,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Model\\Weerstations\\Neerslag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:04:55.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:04:55.734Z"
             },
             {
               "$type": "Document",
@@ -411,8 +391,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\XmlMetingLoggerDecorator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:24:27.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:24:27.225Z"
             },
             {
               "$type": "Document",
@@ -424,8 +403,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\MetingLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:31:47.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T22:31:47.385Z"
             },
             {
               "$type": "Document",
@@ -437,8 +415,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\JsonMetingLoggerDecorator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:23:52.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:23:52.43Z"
             },
             {
               "$type": "Document",
@@ -450,8 +427,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\IMetingLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:03:07.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:03:07.019Z"
             },
             {
               "$type": "Document",
@@ -463,8 +439,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\Factories\\WeerstationFactory.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:34:26.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:34:26.83Z"
             },
             {
               "$type": "Document",
@@ -476,8 +451,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\Factories\\MetingLoggerFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:29:03.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:29:03.217Z"
             },
             {
               "$type": "Document",
@@ -489,8 +463,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Logging\\Factories\\IWeerstationFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:33:50.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:33:50.2Z"
             },
             {
               "$type": "Document",
@@ -502,8 +475,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Interfaces\\IStadRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:58:18.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T22:58:18.897Z"
             },
             {
               "$type": "Document",
@@ -515,8 +487,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Generators\\WeerberichtGeneratorProxy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:30:59.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:30:59.377Z"
             },
             {
               "$type": "Document",
@@ -528,8 +499,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Generators\\IWeerberichtGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:30:20.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:30:20.687Z"
             },
             {
               "$type": "Document",
@@ -541,8 +511,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Generators\\EchteWeerberichtGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:30:44.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:30:44.531Z"
             },
             {
               "$type": "Document",
@@ -554,8 +523,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Facade\\Controllers\\IDomeinController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:06:53.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:06:53.406Z"
             },
             {
               "$type": "Document",
@@ -567,8 +535,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Facade\\Controllers\\DomeinController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:06:09.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:06:09.025Z"
             },
             {
               "$type": "Document",
@@ -580,8 +547,7 @@
               "RelativeToolTip": "WeerEventsDomein\\Enums\\Eenheden.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:14:39.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:14:39.674Z"
             },
             {
               "$type": "Document",
@@ -593,8 +559,7 @@
               "RelativeToolTip": "WeerEventsApi\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:38:26.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:38:26.796Z"
             },
             {
               "$type": "Document",
@@ -606,8 +571,7 @@
               "RelativeToolTip": "WeerEvents.Dto\\Dto\\WeerStationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:04:37.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:04:37.778Z"
             },
             {
               "$type": "Document",
@@ -619,8 +583,7 @@
               "RelativeToolTip": "WeerEvents.Dto\\Dto\\WeerBerichtDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:04:32.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:04:32.969Z"
             },
             {
               "$type": "Document",
@@ -632,8 +595,7 @@
               "RelativeToolTip": "WeerEvents.Dto\\Dto\\StadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:04:29.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:04:29.297Z"
             },
             {
               "$type": "Document",
@@ -645,8 +607,7 @@
               "RelativeToolTip": "WeerEvents.Dto\\Dto\\MetingDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T23:04:15.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T23:04:15.456Z"
             },
             {
               "$type": "Document",
@@ -695,6 +656,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-24T22:31:57.897Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             }
           ]
         }
