@@ -18,7 +18,6 @@ WeerEvents is een applicatie voor het verzamelen en verwerken van meteorologisch
 ## Known issues
 
 - Sommige functie en variabelen zou ik beter kunnen benoemen
-- Kan niet naar `http://localhost:5008/commands/meting-command` in browser 
 
 ---
 
