@@ -8,8 +8,8 @@ namespace WeerEventsDomein.Factories;
 
 public class WeerstationFactory : IWeerstationFactory
 {
-    private readonly IStadRepository _stadRepo;
-    private readonly Random _random = new();
+    private IStadRepository _stadRepo;
+    private  Random _random = new();
 
     public WeerstationFactory(IStadRepository stadRepo)
     {
@@ -17,26 +17,27 @@ public class WeerstationFactory : IWeerstationFactory
     }
 
     public List<Weerstation> MaakWeerstations()
+{
+    var steden = _stadRepo.GetSteden().ToList();
+    var lijst = new List<Weerstation>();
+
+    for (int i = 0; i < 12; i++)
     {
-        var steden = _stadRepo.GetSteden();
-        var lijst = new List<Weerstation>();
+        var stad = steden[_random.Next(steden.Count)];
 
-        for (int i = 0; i < 12; i++)
+        Weerstation station = (i % 4) switch
         {
-            var stad = steden[_random.Next(steden.Count)];
+            0 => new Temperatuur { Locatie = stad, Metingen = new() },
+            1 => new Wind { Locatie = stad, Metingen = new() },
+            2 => new Neerslag { Locatie = stad, Metingen = new() },
+            3 => new Luchtdruk { Locatie = stad, Metingen = new() },
+            _ => throw new Exception("Onbekend type")
+        };
 
-            Weerstation station = i % 4 switch
-            {
-                0 => new Temperatuur { Locatie = stad, Metingen = new() },
-                1 => new Wind { Locatie = stad, Metingen = new() },
-                2 => new Neerslag { Locatie = stad, Metingen = new() },
-                3 => new Luchtdruk { Locatie = stad, Metingen = new() },
-                _ => throw new Exception("Onbekend type")
-            };
-
-            lijst.Add(station);
-        }
-
-        return lijst;
+        lijst.Add(station);
     }
+
+    return lijst;
+}
+
 }

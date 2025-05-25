@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WeerEventsDomein.Factories;
+using WeerEventsDomein.Interfaces;
 using WeerEventsDomein.Logging.Factories;
 using WeerEventsDomein.Model;
 
@@ -12,12 +13,15 @@ namespace WeerEventsDomein.Steden.Managers
     public class WeerstationManager : IWeerstationManager
     {
 
-        private readonly List<Weerstation>? Weerstations;
-        private readonly IWeerstationFactory _weerstationFactory = new WeerstationFactory();
-        public WeerstationManager()
+        private readonly IWeerstationFactory _weerstationFactory;
+        private List<Weerstation> Weerstations;
+
+        public WeerstationManager(IWeerstationFactory weerstationFactory)
         {
-            Weerstations = _weerstationFactory.MaakWeerstations();
+            _weerstationFactory = weerstationFactory; // eerst toewijzen
+            Weerstations = _weerstationFactory.MaakWeerstations(); // dan aanroepen
         }
+
         public void DoeMeting()
         {
             foreach (Weerstation weerstation in Weerstations)

@@ -6,20 +6,12 @@ using WeerEventsDomein.Steden.Managers;
 
 namespace WeerEventsDomein.Facade.Controllers;
 
-public class DomeinController : IDomeinController
+public class DomeinController(IStadManager stadManager, IWeerstationManager weerstationManager, IWeerberichtManager weerberichtManager) : IDomeinController
 {
-    private readonly IStadManager _stadManager;
-    private readonly IWeerstationManager _weerstationManager;
-   
-   
-    public DomeinController(IStadManager stadManager, IWeerstationManager weerstationManager)
-    {
-        
-        _stadManager = stadManager;
-        _weerstationManager = weerstationManager;
-        
-    }
-    
+    private readonly IStadManager _stadManager = stadManager;
+    private readonly IWeerstationManager _weerstationManager = weerstationManager;
+    private readonly IWeerberichtManager _weerberichtManager = weerberichtManager;
+
     public IEnumerable<StadDto> GeefSteden()
     {
         return _stadManager.GeefSteden().Select(s => new StadDto
@@ -40,14 +32,7 @@ public class DomeinController : IDomeinController
                Naam = w.Locatie.Naam,
                Beschrijving = w.Locatie.Beschrijving,
                GekendVoor = w.Locatie.GekendVoor
-           },
-           Metingen = w.GeefMetingen().Select(m => new MetingDto
-           {
-               MetingTijd = m.MetingTijd,
-               Waarde = m.Waarde,
-               Eenheid = m.Eenheid.ToString(),
-               Locatie = m.Locatie.Naam
-           }).ToList()
+           }
        });
        
     }
@@ -73,7 +58,12 @@ public class DomeinController : IDomeinController
 
     public WeerBerichtDto GeefWeerbericht()
     {
-        //TODO
-        throw new NotImplementedException();
+        Weerbericht weerbericht = _weerberichtManager.GeefWeerbericht();
+        var metingen = _weerstationManager.GeefKopieMetingen();
+        return new WeerBerichtDto
+        {
+            MomentCreatie = weerbericht.MomentCreatie,
+            Tekst = weerbericht.Tekst
+        };
     }
 }

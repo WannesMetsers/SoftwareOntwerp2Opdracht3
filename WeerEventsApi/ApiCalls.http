@@ -1,11 +1,28 @@
-### GET
+### GET: Server status
 GET http://localhost:5008/
 
 ###
 
-### GET steden
+### GET: Alle steden
 GET http://localhost:5008/steden
 
 ###
 
-//TODO api tests aanvullen
+### GET: Alle weerstations (zonder metingen)
+GET http://localhost:5008/weerstations
+
+###
+
+### GET: Alle metingen
+GET http://localhost:5008/metingen
+
+###
+
+### GET: Weerbericht ophalen (kan traag zijn door simulatie)
+GET http://localhost:5008/weerbericht
+
+###
+
+### POST: Alle weerstations doen een meting
+POST http://localhost:5008/commands/meting-command
+Content-Type: application/json
