@@ -17,7 +17,13 @@ WeerEvents is een applicatie voor het verzamelen en verwerken van meteorologisch
 
 ## Known issues
 
-- Heb nog geen issues gevonden
+- Sommige functie en variabelen zou ik beter kunnen benoemen
+
+---
+
+## Domeinmodel
+
+![UML KlasseDiagram](docs/SO2Weer.drawio.png)
 
 ---
 

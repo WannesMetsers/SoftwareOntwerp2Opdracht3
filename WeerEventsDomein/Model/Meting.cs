@@ -11,7 +11,7 @@ namespace WeerEventsDomein.Model
     {
         public DateTime MetingTijd { get; set; }
 
-        public Double Waarde { get; set; }
+        public double Waarde { get; set; }
 
         public Eenheden Eenheid { get; set; }
 

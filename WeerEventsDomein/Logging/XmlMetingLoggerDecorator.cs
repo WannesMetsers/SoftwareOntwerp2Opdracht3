@@ -18,7 +18,7 @@ namespace WeerEventsDomein.Logging
 
         public void Log(Meting meting)
         {
-            _inner.Log(meting); // eerst inner logger
+            _inner.Log(meting); 
             var xml = $"""
         <Meting>
             <Moment>{meting.MetingTijd}</Moment>

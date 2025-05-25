@@ -18,8 +18,8 @@ namespace WeerEventsDomein.Steden.Managers
 
         public WeerstationManager(IWeerstationFactory weerstationFactory)
         {
-            _weerstationFactory = weerstationFactory; // eerst toewijzen
-            Weerstations = _weerstationFactory.MaakWeerstations(); // dan aanroepen
+            _weerstationFactory = weerstationFactory; 
+            Weerstations = _weerstationFactory.MaakWeerstations(); 
         }
 
         public void DoeMeting()

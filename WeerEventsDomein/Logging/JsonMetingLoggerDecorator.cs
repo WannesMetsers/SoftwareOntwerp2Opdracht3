@@ -19,7 +19,7 @@ namespace WeerEventsDomein.Logging
 
         public void Log(Meting meting)
         {
-            _inner.Log(meting); // eerst inner logger
+            _inner.Log(meting); 
             var json = JsonSerializer.Serialize(meting, new JsonSerializerOptions { WriteIndented = true });
             File.AppendAllText("log.json", json + Environment.NewLine);
         }

@@ -4,7 +4,7 @@ public static class MetingLoggerFactory
 {
     public static IMetingLogger Create(bool decorateWithJson = false, bool decorateWithXml = false)
     {
-        IMetingLogger logger = new MetingLogger(); // basisimplementatie
+        IMetingLogger logger = new MetingLogger(); 
 
         if (decorateWithJson)
         {

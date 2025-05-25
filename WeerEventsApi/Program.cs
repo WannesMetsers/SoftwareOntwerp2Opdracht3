@@ -11,7 +11,7 @@ using WeerEventsDomein.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddSingleton<IWeerberichtManager, WeerberichtManager>();
 
 builder.Services.AddSingleton<IStadRepository, StadRepository>();
@@ -49,6 +49,6 @@ app.MapPost("/commands/meting-command", (IDomeinController dc) =>
 });
 
 
-//TODO api aanvullen
+
 
 app.Run();
