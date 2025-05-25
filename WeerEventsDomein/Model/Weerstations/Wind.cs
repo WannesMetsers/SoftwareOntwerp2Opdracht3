@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WeerEventsDomein.Model.Weerstations
+{
+    public class Wind : Weerstation
+    {
+        public override void DoeMeting()
+        {
+            var waarde = Random.Shared.NextDouble() * 45 - 10;
+            var meting = new Meting(DateTime.UtcNow, waarde, Enums.Eenheden.HectoPascal, Locatie);
+            Metingen.Add(meting);
+         
+        }
+    }
+}

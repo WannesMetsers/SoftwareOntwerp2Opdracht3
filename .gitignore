@@ -1,0 +1,64 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userprefs
+
+# Rider project files
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet package directory
+packages/
+
+# Backup & auto-generated files
+*.bak
+*.log
+*.vspscc
+*.vssscc
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+
+# Resharper files
+_ReSharper*/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover
+*.dotCover
+
+# Others you might want to ignore
+*.swp
+*~.nib
+
+# Logs
+*.log
+
+# IIS Express
+iisexpress/
+
+# Publish output
+publish/
+
+# Rider
+.idea/
+
+# Mac OS files
+.DS_Store
+
+# JetBrains Rider
+.idea/
+
+# Windows thumbnail cache files
+Thumbs.db
