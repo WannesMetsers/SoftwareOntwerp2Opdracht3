@@ -10,7 +10,7 @@ namespace WeerEventsDomein.Model.Weerstations
     {
         public override void DoeMeting()
         {
-            var waarde = Random.Shared.NextDouble() * 45 - 10;
+            var waarde = Random.Shared.NextDouble() * 2 - 35;
             var meting = new Meting(DateTime.UtcNow, waarde, Enums.Eenheden.HectoPascal, Locatie);
             Metingen.Add(meting);
          
